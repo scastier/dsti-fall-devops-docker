@@ -35,7 +35,7 @@ Before you can start the lab, you have to:
 
 ### Lab Part 1
 
-1. Check out the `server.js`, `package.json` and `Dockerfile` files
+1. Open the `hello-world-web-app` directory in the repository and check out the `server.js`, `package.json` and `Dockerfile` files
 2. Check out the explanations for each line in the Dockerfile from [the documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dockerfile-instructions) 
 3. Build the docker container 
   1. Open a terminal (Cmd or Powershell for Windows)
