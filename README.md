@@ -97,7 +97,7 @@ Before you can start the lab, you have to:
 
 1. Docker compose should be included in your Docker installation (on Windows and Mac at least), if not install it using the official [instructions](https://docs.docker.com/compose/install/)
 2. Navigate to the `hello-world-compose-web-app` directory in the cloned repository
-3. Build the Docker image with the name of your choice
+3. Build the Docker image inside this directory with the name of your choice
 4. Fill the missing part of the `docker-compose.yaml` file to make it use the container you just built
 5. Start the containers with `docker-compose up`
 6. Visit `localhost:5000` in your web browser and hit refresh a couple times
