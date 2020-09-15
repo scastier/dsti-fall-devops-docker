@@ -1,8 +1,15 @@
 version: '3'
 services:
   web:
-    # COMPLETE HERE
+    build: .
     ports:
       - "5000:5000"
+# to mounts volume to store counter on the host in /code directory
+    volumes:
+      - .:/data
+# to run FLASK in development mode to reload the code on change (only in dev !)
+    environment:
+      FLASK_ENV: development
+# Database
   redis:
     image: "redis:alpine"
