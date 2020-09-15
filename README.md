@@ -30,7 +30,7 @@ Before you can start the lab, you have to:
    ```
 3. Clone the lab repository to your computer:
    ```
-    git clone https://github.com/adaltas/ece-devops.git
+    git clone https://github.com/leopaul36/dsti-fall-devops-docker.git
    ```
 
 ### Lab Part 1
